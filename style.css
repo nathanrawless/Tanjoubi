@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.caption {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #4ae6f7;
+    text-align: center;
+}
+
+
